@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Muhammad Zahid - Modern animated portfolio website">
+  <title>Muhammad Zahid | Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="cursor-glow"></div>
+
+  <header class="navbar">
+    <a href="#home" class="logo">Muhammad Zahid<span>.</span></a>
+    <button class="menu-btn" aria-label="Open menu">☰</button>
+    <nav>
+      <a href="#home" class="active">Home</a>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home" class="hero section">
+      <div class="hero-text reveal">
+        <p class="eyebrow">WELCOME TO MY PORTFOLIO</p>
+        <h1><span>Muhammad Zahid</span></h1>
+        <h2>I'm a <span id="typing"></span><span class="caret">|</span></h2>
+        <p class="hero-desc">
+          I create clean, modern and interactive digital experiences with
+          creativity, code and attention to detail.
+        </p>
+        <br/>
+        
+        <div class="hero-buttons">
+          <a class="btn primary" href="#projects">View My Work</a>
+          <a class="btn secondary" href="#contact">Contact Me</a>
+          <a class="btn secondary" href="CV.pdf" download>Download CV</a>
+        </div>
+        <div class="socials">
+          <a href="#" aria-label="GitHub">GH</a>
+          <a href="#" aria-label="Facebook">FB</a>
+          <a href="+92 3149811751" aria-label="Wattsapp">WP</a>
+        </div>
+      </div>
+
+      <div class="hero-image reveal">
+        <div class="image-ring"></div>
+        <div class="image-card">
+          <img src="profile.jpg" alt="Profile picture" onerror="this.style.display='none'; this.nextElementSibling.style.display='grid';">
+          <div class="image-placeholder">
+            <strong>YOUR PHOTO</strong>
+            <small>Replace images/profile.jpg</small>
+          </div>
+        </div>
+        <span class="floating-badge badge-one">HTML</span>
+        <span class="floating-badge badge-two">CSS</span>
+        <span class="floating-badge badge-three">JS</span>
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <div class="section-title reveal">
+        <p class="eyebrow">GET TO KNOW ME</p>
+        <h2>About <span>Me</span></h2>
+      </div>
+      <div class="about-grid">
+        <div class="glass-card reveal">
+          <h3>Who I Am</h3>
+          <p>
+            I'm a beginner web developer who enjoys building stylish websites
+            and learning new technologies. I focus on simple layouts, smooth
+            animations and user-friendly experiences.
+          </p>
+          <p>
+            This template is easy to customize for a DIT project, personal
+            portfolio, CV website or freelancing profile.
+          </p>
+        </div>
+        <div class="stats reveal">
+          <div class="stat"><strong>10+</strong><span>Projects</span></div>
+          <div class="stat"><strong>4+</strong><span>Skills</span></div>
+          <div class="stat"><strong>100%</strong><span>Passion</span></div>
+          <div class="stat"><strong>24/7</strong><span>Learning</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="section">
+      <div class="section-title reveal">
+        <p class="eyebrow">WHAT I KNOW</p>
+        <h2>My <span>Skills</span></h2>
+      </div>
+      <div class="skills-grid">
+        <div class="skill-card reveal"><div class="skill-icon">01</div><h3>HTML</h3><p>Semantic and well-structured web pages.</p><div class="bar"><i style="width:90%"></i></div><b>90%</b></div>
+        <div class="skill-card reveal"><div class="skill-icon">02</div><h3>CSS</h3><p>Responsive layouts, effects and animations.</p><div class="bar"><i style="width:85%"></i></div><b>85%</b></div>
+        <div class="skill-card reveal"><div class="skill-icon">03</div><h3>JavaScript</h3><p>Interactive and dynamic website features.</p><div class="bar"><i style="width:70%"></i></div><b>70%</b></div>
+        <div class="skill-card reveal"><div class="skill-icon">04</div><h3>Python</h3><p>Beginner projects, logic and GUI applications.</p><div class="bar"><i style="width:75%"></i></div><b>75%</b></div>
+        <div class="skill-card reveal"><div class="skill-icon">05</div><h3>Ms Access</h3><p>logical and usefull databases</p><div class="bar"><i style="width:75%"></i></div><b>75%</b></div>
+        <div class="skill-card reveal"><div class="skill-icon">06</div><h3>Graphic Designing</h3><p>Corel Draw, Photo Shop,</p><div class="bar"><i style="width:75%"></i></div><b>90%</b></div>
+      </div>
+      </div>
+    </section>
+
+    <section id="projects" class="section">
+      <div class="section-title reveal">
+        <p class="eyebrow">MY RECENT WORK</p>
+        <h2>Featured <span>Projects</span></h2>
+      </div>
+      <div class="projects-grid">
+        <article class="project-card reveal">
+          <div class="project-number">01</div>S
+          <div><span class="tag">HTML • CSS</span><h3>Personal Portfolio</h3><p>A responsive portfolio with modern animations and a clean UI.</p></div>
+          <a href="https://muhammadzahidportfolio.netlify.app/" class="project-link">View Project ↗</a>
+        </article>
+        <article class="project-card reveal">
+          <div class="project-number">02</div>
+          <div><span class="tag">PYTHON</span><h3>EXE application </h3><p>Developed a complete EXE application to manages students, fees, attendance, exams .</p></div>
+          <a href="School.exe" class="project-link">Download ↗</a>
+        </article>
+        <article class="project-card reveal">
+          <div class="project-number">03</div>
+          <div><span class="tag">DATABASE</span><h3>Pharmacy Management System</h3><p>A simple management system concept for medicines records.</p></div>
+          <a href="medicine.accdb" class="project-link">Download ↗</a>
+        </article>
+         <article class="project-card reveal">
+          <div class="project-number">04</div>
+          <div><span class="tag">Graphic Designs </span><h3>Beatifull Buisness Flexes </h3><p>A Professional Buisness Flexes .</p></div>
+          <a href="#" class="project-link">View Project ↗</a>
+        </article>
+      </div>
+    </section>
+
+    <section id="contact" class="section contact-section">
+      <div class="section-title reveal">
+        <p class="eyebrow">LET'S CONNECT</p>
+        <h2>Contact <span>Me</span></h2>
+      </div>
+      <div class="contact-box reveal">
+        <div>
+          <h3>Have a project in mind?</h3>
+          <p>Send me a message and let's create something awesome together.</p>
+        </div>
+        <a class="btn primary" href="mailto:zahidnew5634@gmail.com">Email Me</a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>© <span id="year"></span> Muhammad Zahid. All Rights Reserved.</p>
+    <a href="#home">Back to top ↑</a>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
